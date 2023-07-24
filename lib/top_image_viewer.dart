@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_camera/scan_controller.dart';
 import 'package:get/get.dart';
 
-
-
-
 class TopImageViewer extends StatelessWidget {
   const TopImageViewer({Key? key}) : super(key: key);
 
