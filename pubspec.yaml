@@ -36,7 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.5
   camera: ^0.9.8+1
+  # tflite_flutter: ^0.10.1
+  tflite: ^1.1.2
+  # meta: ^1.9.1
   image: ^3.2.0
+  
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +58,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/custom_label.txt
+    - assets/custom_model.tflite
+
+
+    
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
